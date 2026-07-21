@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">Jose Carlo Sia</title>
+  <desc id="desc">Building the digital infrastructure between the field and the laboratory</desc>
+  <rect width="1200" height="280" fill="#fafafa"/>
+  <line x1="80" y1="205" x2="1120" y2="205" stroke="#e5e5e5" stroke-width="1"/>
+  <text x="80" y="110" font-family="Georgia, 'Times New Roman', serif" font-size="48" fill="#171717" font-weight="400">Jose Carlo Sia</text>
+  <text x="80" y="152" font-family="ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="20" fill="#525252">Building the Digital Infrastructure Between the Field and the Laboratory</text>
+  <text x="80" y="180" font-family="ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="15" fill="#737373">IoT and systems architecture for agriculture and life sciences</text>
+  <text x="80" y="240" font-family="ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="14" fill="#737373">Metro Manila, Philippines</text>
+</svg>
