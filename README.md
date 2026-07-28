@@ -13,7 +13,7 @@
   ·
   <a href="https://github.com/centralchaos">GitHub</a>
   ·
-  <a href="https://ketexh.com/">KE-Texh</a>
+  <a href="https://ketexh.com/">KE Texh</a>
 </p>
 
 ---
@@ -66,9 +66,11 @@ Some of this work is proprietary or partner-related, so source access may be res
 - **GEMS: Genomic Evidence Management System** · *Published framework* ([publication](https://doi.org/10.5281/zenodo.21308607) · [repository](https://github.com/centralchaos/ke-gems))<br/>
   A proposed architecture and methodology for preserving genomic provenance, chain of identity, analytical history, and audit-ready evidence from sample accessioning through sequencing and interpretation.
 - **ThetaSmart tunnel climate controller** · *Active development* ([thetasmart-controller](https://github.com/centralchaos/thetasmart-controller))<br/>
-  Standalone ESP32-S3 control panel for tunnel-ventilated climate management with HVAC and 8-gang SSR. Stack: C, ESP32-S3, Waveshare 4.3B.
-- **Poultry Disease Classifier** · *Research prototype* ([KETexh_Diseases_Classifier](https://github.com/centralchaos/KETexh_Diseases_Classifier))<br/>
-  EfficientNet-B3 image classifier with a FastAPI backend and Gradio interface. Stack: Python.
+  Standalone ESP32-S3 control panel for tunnel-ventilated climate management with HVAC and an eight-channel solid-state relay module. Stack: C, ESP32-S3, Waveshare 4.3B.
+- **Poultry Disease Classifier** · *Field-tested proof of concept (advisory)* ([KETexh_Diseases_Classifier-V2](https://github.com/centralchaos/KETexh_Diseases_Classifier-V2))<br/>
+  EfficientNet-B3 image classifier with FastAPI and Gradio. Held-out test set of 240 images (60/class), separate from training and validation: 73.75% overall accuracy; per-class 68.3%–83.3%. Advisory use only, not a standalone diagnostic. Stack: Python, PyTorch.
+- **Veterinary Laboratory PDF Lakehouse** · *Deployed March 2026*<br/>
+  Document-intelligence pipeline for approximately 9,900 historical laboratory reports: OCR and table extraction, structured Parquet datasets, sample-level lineage, data-quality controls, resumable ingestion, and analytics dashboards.
 - **BioSentinel LIMS** · *Platform implementation* ([biosen-lims](https://github.com/centralchaos/biosen-lims))<br/>
   SENAITE-based laboratory information management for diagnostics and sample tracking. Stack: Python.
 
@@ -79,9 +81,16 @@ Some of this work is proprietary or partner-related, so source access may be res
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21308607-blue)](https://doi.org/10.5281/zenodo.21308607)
 
 **[GEMS: A Genomic Evidence Management Framework for Regulatory Decision-Making](https://doi.org/10.5281/zenodo.21308607)**  
-Jose Carlo Sia · KE-Texh · 2026 · CC BY 4.0
+Jose Carlo Sia · KE Texh · 2026 · CC BY 4.0
 
 The paper defines an eleven-stage evidence lifecycle, six evidentiary pillars, and the Genomic Evidence Standard (GES). It demonstrates the framework through a portable food-species genomics implementation using Oxford Nanopore sequencing, LIMS integration, evidence scoring, integrity hashing, and structured reporting.
+
+**[Railway Form-Contract Residues for Constrained IoT Event Logging](https://doi.org/10.5281/zenodo.21633850)**  
+Jose Carlo Sia · 2026 · CC BY 4.0
+
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21633850-blue)](https://doi.org/10.5281/zenodo.21633850)
+
+Schema-off-the-wire structured event logging for constrained systems. This is the design used for data transmission and for the ML inference data model on AI-enabled IoT devices such as the ESP32.
 
 ---
 
@@ -89,7 +98,7 @@ The paper defines an eleven-stage evidence lifecycle, six evidentiary pillars, a
 
 - **Swine digitalization with ITCPH.** An IoT laboratory and an IoT-enabled swine facility, from environmental controls to decision support.
 - **Portable edge genomics.** Sequencing to analysis on hardware that runs outside a data center.
-- **Animal-signal models.** Chicken vocalization (v2) and poultry disease classification.
+- **Animal behavior and acoustic models.** Chicken vocalization analysis and poultry disease classification.
 - **Evidence and provenance.** GEMS and the GES standard for auditable genomic records.
 
 ---
@@ -99,17 +108,17 @@ The paper defines an eleven-stage evidence lifecycle, six evidentiary pillars, a
 ### Now
 
 <details open>
-<summary><strong>Chief Science and Technology Officer</strong> · KE-Texh Solutions, Inc · Jan 2024 – Present · Philippines</summary>
+<summary><strong>Chief Technology Officer</strong> · KE Texh Solutions, Inc · Jan 2024 – Jul 2026 · Philippines</summary>
 <br/>
 
-I set research direction and own the IoT and data architecture across KE-Texh's agriculture and life-science systems. Sensors, environmental controls, and livestock monitoring feed a single data path, from the barn to analytics and control software. I run the platforms, APIs, and Python pipelines behind live telemetry, historical analysis, and ML workloads, and I introduce computer vision or analytical models only where they measurably improve operations. I work with veterinarians, agriculturists, engineers, and institutional partners so the design holds up against both biology and regulation. I favor systems that stay in service after handoff.
+I set research direction and own the IoT and data architecture across KE Texh's agriculture and life-science systems. Sensors, environmental controls, and livestock monitoring feed a single data path, from the barn to analytics and control software. I run the platforms, APIs, and Python pipelines behind live telemetry, historical analysis, and ML workloads, and I introduce computer vision or analytical models only where they measurably improve operations. I work with veterinarians, agriculturists, engineers, and institutional partners so the design holds up against both biology and regulation. I favor systems that stay in service after handoff.
 </details>
 
 <details>
-<summary><strong>Solutions Architect</strong> · Evertech Enterprises · Oct 2023 – Present · Philippines</summary>
+<summary><strong>Solutions Architect</strong> · Evertech Enterprises · Oct 2023 – Dec 2024 · Philippines</summary>
 <br/>
 
-I lead bioinformatics systems engineering: the dry-lab platforms, workflows, and governance behind biological analysis for virology, disease surveillance, and animal health. Sequence processing, alignment, phylogenetics, mutation tracking, and diagnostic workflow modeling run on Galaxy and containerized Linux for traceability. The pipelines take sequence data through to reproducible analysis, surveillance, and decision support, and they are built to complement laboratory work rather than replace it.
+I lead bioinformatics systems engineering: the dry-lab platforms, workflows, and governance behind biological analysis for virology, disease surveillance, and animal health. Sequence processing, alignment, phylogenetics, mutation tracking, and diagnostic workflow modeling run on Galaxy and containerized Linux for traceability. The pipelines transform sequence data into reproducible analysis, surveillance, and decision support, and they are built to complement laboratory work rather than replace it. This role overlapped with KE Texh through Dec 2024 by design.
 </details>
 
 ### Earlier enterprise experience (2007–2022)
@@ -123,8 +132,8 @@ Before I focused on agriculture and life sciences, I led and supported enterpris
 - **Technical Project Manager** · MERALCO (Indra) · Jul 2021 – Jul 2022. Delivered Meralco's enterprise ITSM platform on ServiceNow, from contracting through Agile delivery and production.
 - **Technical Delivery Lead** · UnionBank of the Philippines · Feb 2020 – Jun 2021. Led digital banking platforms (Digital Check Deposit and Account Opening) on Appian and OutSystems, with AI/ML OCR.
 - **Sr. Customer Experience Manager** · PCM · Apr 2017 – Nov 2019. Ran CX for B2B enterprise clients on ServiceNow ITSM across APAC.
-- **CA Applications Support Engineer** · Stefanini Group · Mar 2013 – Mar 2017. Supported CA Service Desk, PAM, and server management for APAC and EU; heavy use of CA's MAJIC scripting.
-- **Information Systems & Data Analyst** · Del Monte Philippines · Jan 2011 – Mar 2013. Where my data science work began: Python for national-scale sales and operations analysis, with reporting in Power BI and IBM Cognos on Linux and OpenERP (now Odoo).
+- **CA Applications Support Engineer** · Stefanini Group · Mar 2013 – Mar 2017. Supported CA Service Desk, PAM, and server management for APAC and EU; Ruby and MAJIC scripting on CA platforms.
+- **Information Systems & Data Analyst** · Del Monte Philippines · Jan 2011 – Mar 2013. Where my data science work began: Python for national-scale sales and operations analysis, with SQL-backed enterprise systems, Cognos, and operational reporting tools on Linux and OpenERP (now Odoo).
 - **Technical and operational support** · selected Philippine government engagements · 2007 – 2011.
 
 Full history on [LinkedIn](https://www.linkedin.com/in/jose-carlo-sia-627844162).
@@ -132,9 +141,16 @@ Full history on [LinkedIn](https://www.linkedin.com/in/jose-carlo-sia-627844162)
 
 ---
 
+## Education
+
+- **University of the Philippines Los Baños** · 2003
+- **AMA University** · BS Artificial Intelligence · 2025
+
+---
+
 ## Speaking, teaching, and capacity building
 
-Alongside my technical work, I lead internships, university partnerships, and government-sector training, including the KE-Texh Internship 2026 cohort and the Bioinformatics Edge Academy.
+Alongside my technical work, I lead internships, university partnerships, and government-sector training, including the KE Texh Internship 2026 cohort and the Bioinformatics Edge Academy.
 
 ### Agriculturist Summit 2026
 
@@ -294,4 +310,4 @@ Capability groups for reference. Expand any area.
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/jose-carlo-sia-627844162) · [KE-Texh](https://ketexh.com/)
+[LinkedIn](https://www.linkedin.com/in/jose-carlo-sia-627844162) · [KE Texh](https://ketexh.com/)
