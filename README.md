@@ -8,11 +8,19 @@
   <em>My focus is making advanced agricultural and life-science systems deployable, traceable, and sustainable under real Philippine operating conditions.</em>
 </p>
 
+<p align="center">
+  <a href="https://www.linkedin.com/in/jose-carlo-sia-627844162">LinkedIn</a>
+  ·
+  <a href="https://github.com/centralchaos">GitHub</a>
+  ·
+  <a href="https://ketexh.com/">KE-Texh</a>
+</p>
+
 ---
 
 ## Mission
 
-I have over 20 years of experience building systems and applications. I have worked with data analytics, statistical computing, and data-driven systems since 2011, when I began using Python to analyze national-scale sales and operations data at Del Monte Philippines. That analytical work developed alongside a career in enterprise systems, infrastructure, and technical delivery. I have since applied both to agriculture, animal health, and genomics, where dependable data systems support food security, biosecurity, and access to science.
+I have worked with data analytics, statistical computing, and data-driven systems since 2011, when I began using Python to analyze national-scale sales and operations data at Del Monte Philippines. That analytical work developed alongside a career in enterprise systems, infrastructure, and technical delivery. I have since applied both to agriculture, animal health, and genomics, where dependable data systems support food security, biosecurity, and access to science.
 
 Data is the constant. For more than a decade my work has been to turn noisy, real-world signals into decisions, whether the output is a national sales dashboard, live farm telemetry, or a genomic surveillance pipeline.
 
@@ -88,17 +96,17 @@ The paper defines an eleven-stage evidence lifecycle, six evidentiary pillars, a
 
 ## Career background
 
-### Recent roles
+### Now
 
 <details open>
-<summary><strong>Chief Science and Technology Officer</strong> · KE-Texh Solutions, Inc · Jan 2024 – Jul 2026 · Philippines</summary>
+<summary><strong>Chief Science and Technology Officer</strong> · KE-Texh Solutions, Inc · Jan 2024 – Present · Philippines</summary>
 <br/>
 
 I set research direction and own the IoT and data architecture across KE-Texh's agriculture and life-science systems. Sensors, environmental controls, and livestock monitoring feed a single data path, from the barn to analytics and control software. I run the platforms, APIs, and Python pipelines behind live telemetry, historical analysis, and ML workloads, and I introduce computer vision or analytical models only where they measurably improve operations. I work with veterinarians, agriculturists, engineers, and institutional partners so the design holds up against both biology and regulation. I favor systems that stay in service after handoff.
 </details>
 
 <details>
-<summary><strong>Solutions Architect</strong> · Evertech Enterprises · Oct 2023 – Dec 2024 · Philippines</summary>
+<summary><strong>Solutions Architect</strong> · Evertech Enterprises · Oct 2023 – Present · Philippines</summary>
 <br/>
 
 I lead bioinformatics systems engineering: the dry-lab platforms, workflows, and governance behind biological analysis for virology, disease surveillance, and animal health. Sequence processing, alignment, phylogenetics, mutation tracking, and diagnostic workflow modeling run on Galaxy and containerized Linux for traceability. The pipelines take sequence data through to reproducible analysis, surveillance, and decision support, and they are built to complement laboratory work rather than replace it.
